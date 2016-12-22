@@ -1,2 +1,51 @@
-# frasesdomica
-Frases do Micka
+# Frases do Mica
+Uma coleção de frases "motivacionais" da autoria de um Web Developer frustrado :wink:
+
+Eventualmente, deverá evoluir para um site e/ou serviço
+
+## Citações
+
+> Tenho saudades do *bluescreen*
+
+---
+
+> Para mim, é o *standard*
+
+---
+
+> Faço de um beco sem saída uma autoestrada
+
+---
+
+> Preciso de um 3º monitor...
+
+---
+
+> Vou acabar com a internet
+
+---
+
+> Vou criar um novo git
+
+---
+
+> Quero programar em VR
+
+---
+
+> 
+- Quando tiveres tempo, vou precisar de ti.
+- Tenho tempo agora.
+- Tens tempo agora? F\*\*\*-\*\*!
+
+---
+
+> A culpa é do \**insira-nome-aqui*
+
+---
+
+> Façam isso, nem que eu pague
+
+---
+
+> A malta de \**insira-departamento-aqui* não faz nada!
