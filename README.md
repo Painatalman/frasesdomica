@@ -49,3 +49,9 @@ Eventualmente, deverá evoluir para um site e/ou serviço
 ---
 
 > A malta de \**insira-departamento-aqui* não faz nada!
+
+---
+
+> Em vez de irmos ao essencial, fazemos tudo para tornar a nossa vida mais difícil!
+
+---
