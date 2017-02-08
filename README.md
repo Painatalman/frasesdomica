@@ -55,3 +55,9 @@ Eventualmente, deverá evoluir para um site e/ou serviço
 > Em vez de irmos ao essencial, fazemos tudo para tornar a nossa vida mais difícil!
 
 ---
+
+> 
+- Hoje é quarta-feira.
+- O quê? Ontem?!
+
+---
