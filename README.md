@@ -61,3 +61,15 @@ Eventualmente, deverá evoluir para um site e/ou serviço
 - O quê? Ontem?!
 
 ---
+
+> Há uma linha que separa... não sei o quê, mas ya!
+
+---
+
+> O \**insira-tecnologia-aqui* é estúpido!
+
+---
+
+> Uma coisa é fazer pró Mac, outra é fazer do Mac...
+
+---
