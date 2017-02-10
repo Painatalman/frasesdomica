@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="dist/micaquote.helper.js"></script>
+    </head>
+    <body>
+        <p id="quote"></p>
+        <button id="quotebutton">Get Quote</button>
+        <script>
+            var micaquote = new MicaquoteHelper();
+            
+            var quoteElement = window.quote; // weirdo trick
+            window.quotebutton.onclick = function () {
+                quoteElement.innerHTML = micaquote.getRandomQuote();
+            }
+            
+            window.quotebutton.click();
+        </script>
+    </body>
+</html>

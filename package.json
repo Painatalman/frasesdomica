@@ -1,0 +1,32 @@
+{
+  "name": "frasesdomica",
+  "version": "0.0.1",
+  "description": "A random message provider",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Painatalman/frasesdomica.git"
+  },
+  "keywords": [
+    "random",
+    "rant",
+    "quotes",
+    "pt"
+  ],
+  "author": "Carlos Batman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Painatalman/frasesdomica/issues"
+  },
+  "homepage": "https://github.com/Painatalman/frasesdomica#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
