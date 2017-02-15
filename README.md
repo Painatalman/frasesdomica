@@ -1,4 +1,4 @@
-# Frases do Mica
+# Frases do Rante
 Uma coleção de frases "motivacionais" da autoria de um Web Developer frustrado :wink:
 
 Eventualmente, deverá evoluir para um site e/ou serviço
