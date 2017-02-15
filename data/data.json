@@ -7,14 +7,32 @@
         "Vou acabar com a internet",
         "Vou criar um novo git",
         "Quero programar em VR",
-        "A culpa é do *nome!",
+        "A culpa é do $names!",
         "Façam isso, nem que eu pague!",
-        "A malta do *departamento não faz nada!",
+        "A malta do $departments não faz nada!",
         "Há uma lista que separa... não sei o quê, mas ya!",
-        "O *programa é estúpido!",
+        "O $techs é estúpido!",
         "Uma coisa é fazer pró Mac, outra é fazer DO Mac..."
     ],
     "dialogs": [
     
-    ]
+    ],
+    "extras": {
+        "departments": [
+            "marketing",
+            "design",
+            "front-end",
+            "back-end",
+            "sysadmin"
+        ],
+        "techs": [
+            "editor",
+            "programa"
+        ], 
+        "names": [
+            "Costa",
+            "Noddy",
+            "Batman"
+        ]
+    }
 }
