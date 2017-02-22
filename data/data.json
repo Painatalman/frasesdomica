@@ -10,9 +10,11 @@
         "A culpa é do $names!",
         "Façam isso, nem que eu pague!",
         "A malta do $departments não faz nada!",
-        "Há uma lista que separa... não sei o quê, mas ya!",
+        "Há uma linha que separa... não sei o quê, mas ya!",
         "O $techs é estúpido!",
-        "Uma coisa é fazer pró Mac, outra é fazer DO Mac..."
+        "Uma coisa é fazer pró Mac, outra é fazer DO Mac...",
+        "Testes unitários para css? Lol, metes um background vermelho e vê!",
+        "Vou minimificar o $programming_languages à la je!"
     ],
     "dialogs": [
     
@@ -28,7 +30,14 @@
         "techs": [
             "editor",
             "programa"
-        ], 
+        ],
+        "programming_languages": [
+            "javascript",
+            "css",
+            "html",
+            "c",
+            "android"
+        ],
         "names": [
             "Costa",
             "Noddy",
