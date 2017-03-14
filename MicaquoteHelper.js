@@ -25,7 +25,7 @@ MicaquoteHelper.prototype.getRandomDialog = function (options) {
 }
 
 MicaquoteHelper.prototype.getRandomQuote = function() {
-    return this.quotes[Math.floor(Math.random()*this.quotes.length)].replace(/\$(\w+)/, function(match, capture){return this.getRandomExtra(capture)}.bind(this));
+    return this.quotes[Math.floor(Math.random()*this.quotes.length)].replace(/\$(\w+)/g, function(match, capture){return this.getRandomExtra(capture)}.bind(this));
 }
 
 MicaquoteHelper.prototype.getRandomExtra = function(type) {
