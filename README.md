@@ -1,7 +1,12 @@
 # Frases do Rante
-Uma coleção de frases "motivacionais" da autoria de um Web Developer frustrado :wink:
 
-Eventualmente, deverá evoluir para um site e/ou serviço
+- **url**: https://painatalman.github.io/frasesdorante/
+
+Uma 'API' de "motivacionais" da autoria de um Web Developer frustrado :wink:.
+
+Eventualmente, deverá evoluir para um site e/ou serviço.
+
+---
 
 ## Citações
 
