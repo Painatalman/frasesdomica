@@ -19,7 +19,10 @@
         "Dá-me os ingredientes que eu faço o molho",
         "Devias o quê?... Esquece! A gente percebe, portanto é na boa!",
         "O que podemos fazer, em relação aos editores de conteúdo, é limitar estragos",
-        "Mas para fazer isto vens ao... esquece, que isto não tem!"
+        "Mas para fazer isto vens ao... esquece, que isto não tem!",
+        "Há uns que morrem e outros que ficam assim!",
+        "O truque é o marketing, pá! Vou fazer do $techs uma cena revolucionária",
+        "Ainda ninguém resolveu este erro 404..."
     ],
     "dialogs": [
     
@@ -34,22 +37,23 @@
         ],
         "techs": [
             "editor",
-            "programa"
+            "programa",
+            "VR"
         ],
         "programming_languages": [
             "javascript",
-            "css",
-            "html",
-            "c",
-            "android"
+            "CSS",
+            "HTML",
+            "C",
+            "Android"
         ],
         "names": [
             "Costa",
-            "Noddy",
             "Batman",
-            "Micka",
+            "Mica",
             "Mestre",
-            "Ninja"
+            "Ninja",
+            "Programador"
         ]
     }
 }
