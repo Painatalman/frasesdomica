@@ -22,7 +22,8 @@
         "Mas para fazer isto vens ao... esquece, que isto não tem!",
         "Há uns que morrem e outros que ficam assim!",
         "O truque é o marketing, pá! Vou fazer do $techs uma cena revolucionária",
-        "Ainda ninguém resolveu este erro 404..."
+        "Ainda ninguém resolveu este erro 404...",
+        "Este mundo é uma volta... não quer dizer nada, mas ya!"
     ],
     "dialogs": [
     
@@ -41,11 +42,13 @@
             "VR"
         ],
         "programming_languages": [
-            "javascript",
+            "Javascript",
             "CSS",
             "HTML",
             "C",
-            "Android"
+            "Android",
+            "Bash",
+            "C#"
         ],
         "names": [
             "Costa",
@@ -53,7 +56,8 @@
             "Mica",
             "Mestre",
             "Ninja",
-            "Programador"
+            "Programador",
+            "Son Goku"
         ]
     }
 }
