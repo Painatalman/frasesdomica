@@ -1,7 +1,7 @@
-html,body { 
+html,body {
     position: relative;
     padding: 0;
-    height : 100%; 
+    height : 100%;
     background-color: #000;
     overflow: hidden;
   }
@@ -14,7 +14,7 @@ html,body {
     opacity: .1;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 50%; 
+    background-size: 50%;
     background-image: url('https://yt3.ggpht.com/-F3xsHu2gwi0/AAAAAAAAAAI/AAAAAAAAAAA/f9z1AVL4-H0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg');
     -webkit-animation: leaves 5s ease-in-out infinite alternate;
     animation: leaves 5s ease-in-out infinite alternate;
@@ -55,20 +55,31 @@ html,body {
     width: 100px;
     height: 100px;
     background-image: url('https://yt3.ggpht.com/-F3xsHu2gwi0/AAAAAAAAAAI/AAAAAAAAAAA/f9z1AVL4-H0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg');
-    background-size: 100px; 
+    background-size: 100px;
     border-radius: 100%;
     margin: auto auto 50px auto;
     border: 5px solid white;
   }
-  #quotebutton{
+  #quotebutton,
+  #twitteranchor {
     position: absolute;
     top: 70%;
     left: 50%;
+    
     transform : translate(-50%,-50%);
     background: none;
     border: none;
     color: #fff;
     font-size: 20px;
     text-transform: uppercase;
+    text-decoration: none;
   }
-  #quotebutton:hover { cursor:pointer; }
+
+  #twitteranchor {
+    top: 80%;
+
+    width: 34px;
+  }
+
+  #quotebutton:hover,
+  #twitteranchor:hover { cursor:pointer; }
