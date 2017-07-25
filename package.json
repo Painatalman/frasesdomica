@@ -22,9 +22,6 @@
     "url": "https://github.com/Painatalman/frasesdomica/issues"
   },
   "homepage": "https://github.com/Painatalman/frasesdomica#readme",
-  "dependencies": {
-    "express": "^4.14.1"
-  },
   "devDependencies": {
     "webpack": "^2.2.1"
   }
