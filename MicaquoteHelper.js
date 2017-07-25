@@ -4,7 +4,8 @@ function MicaquoteHelper(quotes, dialogs, extras) {
     this.quotes = quotes || data.quotes;
     this.dialogs = dialogs || data.dialogs;
     this.extras = extras || data.extras;
-    
+    this.lastIndex = null;
+
     this.extraTypeWildcard = '$'; // WARNING: not actually used, but was set here in order to be clear to programmers
 }
 
@@ -13,7 +14,7 @@ MicaquoteHelper.prototype.getRandomQuoteOrDialog = function() {
     var defaultOptions = {
         asString: false
     };
-    
+
     return [].concat(quotesAndDialogs[Math.floor(Math.random()*quotesAndDialogs.length)]);
 }
 
@@ -25,7 +26,19 @@ MicaquoteHelper.prototype.getRandomDialog = function (options) {
 }
 
 MicaquoteHelper.prototype.getRandomQuote = function() {
-    return this.quotes[Math.floor(Math.random()*this.quotes.length)].replace(/\$(\w+)/g, function(match, capture){return this.getRandomExtra(capture)}.bind(this));
+  var quoteLength = this.quotes.length;
+  var currentIndex = 0;
+  var lastIndex = this.lastIndex;
+
+  if (quoteLength > 1) {
+    do {
+      currentIndex = Math.floor(Math.random()*quoteLength);
+    } while (currentIndex === lastIndex);
+  }
+
+  this.lastIndex = currentIndex;
+
+  return this.quotes[currentIndex].replace(/\$(\w+)/g, function(match, capture){return this.getRandomExtra(capture)}.bind(this));
 }
 
 MicaquoteHelper.prototype.getRandomExtra = function(type) {
