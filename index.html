@@ -6,8 +6,8 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <p id="quote"></p>
-        <button id="quotebutton">Get Quote</button>
+        <div id="quote"></div>
+        <button id="quotebutton">O Rante diz...</button>
         <a href='#' type="button" id="twitteranchor" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no');return false;">
           <?xml version="1.0" encoding="utf-8"?>
           <!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
@@ -35,13 +35,24 @@
             var twitterAnchor = window.twitteranchor;
 
             window.quotebutton.onclick = function () {
-              var quote = micaquote.getRandomQuote();
+              var quoteOrDialog = micaquote.getRandomQuoteOrDialog();
+              var quoteOrDialogAsHTMLString = '';
+
+              var quoteOrDialogAsTweet = encodeURIComponent(quoteOrDialog.join(' - '));
+
+              if (quoteOrDialogAsTweet.length > 125) {
+                quoteOrDialogAsTweet = quoteOrDialogAsTweet.substr(0, 125)+'...';
+              }
+
+              quoteOrDialog.forEach(function(quote){
+                  quoteOrDialogAsHTMLString += '<p>' + quote + '</p>'
+              })
 
               // set the quote
-              quoteElement.innerHTML = quote;
+              quoteElement.innerHTML = quoteOrDialogAsHTMLString;
 
               // set the twitter href
-              twitterAnchor.href = 'https://twitter.com/intent/tweet?via=Mi_PiCo&hashtags=frasesdorante&text=' + encodeURIComponent(quote);
+              twitterAnchor.href = 'https://twitter.com/intent/tweet?via=Mi_PiCo&hashtags=frasesdorante&url=https://painatalman.github.io/frasesdorante&text=' + quoteOrDialogAsTweet;
             };
 
             // set an initial quote
