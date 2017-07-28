@@ -9,20 +9,46 @@ function MicaquoteHelper(quotes, dialogs, extras) {
     this.extraTypeWildcard = '$'; // WARNING: not actually used, but was set here in order to be clear to programmers
 }
 
+/**
+ * Returns a list containing one or more quotes.
+ * In case its length is more than 1, then it refers to a dialog
+ * @return {[type]} [description]
+ */
 MicaquoteHelper.prototype.getRandomQuoteOrDialog = function() {
     var quotesAndDialogs = this.quotes.concat(this.dialogs);
-    var defaultOptions = {
-        asString: false
-    };
 
-    return [].concat(quotesAndDialogs[Math.floor(Math.random()*quotesAndDialogs.length)]);
-}
+    var quoteAndDialogsLength = quotesAndDialogs.length;
+    var currentIndex = 0;
+    var lastIndex = this.lastIndex;
 
-MicaquoteHelper.prototype.getRandomDialog = function (options) {
-    defaultOptions = {
-        asString: false, // return all quotes joined by a common character
-        separator: ' - ', // the character that separates quotes in the joined string
+    if (quoteAndDialogsLength > 1) {
+      do {
+        currentIndex = Math.floor(Math.random()*quoteAndDialogsLength);
+      } while (currentIndex === lastIndex);
     }
+
+    this.lastIndex = currentIndex;
+
+    var selectedQuoteOrDialog = quotesAndDialogs[currentIndex];
+    var selectedQuoteOrDialogQuotes = [];
+    var output = [];
+
+    var self = this;
+
+    // create a list of quotes to be converted
+    if (!(selectedQuoteOrDialog instanceof Array)) {
+      selectedQuoteOrDialogQuotes.push(selectedQuoteOrDialog);
+    } else {
+      selectedQuoteOrDialogQuotes = selectedQuoteOrDialog;
+    }
+
+    selectedQuoteOrDialogQuotes.forEach(function(quote){
+      output.push(
+        quote.replace(/\$(\w+)/g, function(match, capture){return self.getRandomExtra(capture)}.bind(this))
+      );
+    })
+
+    return output;
 }
 
 MicaquoteHelper.prototype.getRandomQuote = function() {
@@ -39,7 +65,7 @@ MicaquoteHelper.prototype.getRandomQuote = function() {
   this.lastIndex = currentIndex;
 
   return this.quotes[currentIndex].replace(/\$(\w+)/g, function(match, capture){return this.getRandomExtra(capture)}.bind(this));
-}
+};
 
 MicaquoteHelper.prototype.getRandomExtra = function(type) {
     if (!this.extras[type]) {
@@ -47,9 +73,6 @@ MicaquoteHelper.prototype.getRandomExtra = function(type) {
     } else {
         return this.extras[type][Math.floor(Math.random()*this.extras[type].length)]
     }
-}
-
-MicaquoteHelper.prototype.appendRandomQuote = function (){};
-MicaquoteHelper.prototype.appendRandomDialog = function (){};
+};
 
 module.exports = MicaquoteHelper;
