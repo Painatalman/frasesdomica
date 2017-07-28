@@ -34,7 +34,17 @@
     "Vou criar um novo GIT",
     "Vou minimificar o $programming_languages à la $names!"
   ],
-  "dialogs": [],
+  "dialogs": [
+    [
+      "Quando tiveres tempo, vou precisar de ti.",
+      "Tenho tempo agora.",
+      "Tens tempo agora? F***-**!"
+    ],
+    [
+      "Hoje é quarta-feira",
+      "O quê? Ontem?!"
+    ]
+  ],
   "extras": {
     "departments": [
       "back-end",
