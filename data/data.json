@@ -2,6 +2,7 @@
   "quotes": [
     "A culpa é do $names!",
     "A malta do $departments não faz nada!",
+    "A vida é como o Big Bang: está em constante desorganização",
     "Ainda ninguém resolveu este erro 404...",
     "Bem-vindo a um mundo no qual a lógica não existe",
     "Dá-me os ingredientes que eu faço o molho",
@@ -31,6 +32,7 @@
     "Uma coisa é fazer pró Mac, outra é fazer DO Mac...",
     "Vá lá que temos $techs",
     "Vá lá que temos alguém como $names",
+    "Vocês só me estragam o workflow!",
     "Vou acabar com a internet",
     "Vou criar um novo GIT",
     "Vou minimificar o $programming_languages à la $names!"
@@ -49,38 +51,46 @@
   "extras": {
     "departments": [
       "back-end",
+      "copywriting",
       "design",
       "front-end",
       "marketing",
-      "sysadmin"
+      "sysadmin",
+      "tech writing"
     ],
     "techs": [
+      "cronómetro",
+      "consola de videojogos",
       "editor",
       "programa",
       "VR"
     ],
     "programming_languages": [
-      "Javascript",
-      "CSS",
-      "HTML",
-      "C",
       "Android",
       "Bash",
-      "C#"
+      "C",
+      "CSS",
+      "C#",
+      "D",
+      "F#",
+      "HTML",
+      "Javascript",
+      "KOBOL"
     ],
     "names": [
       "aquele gajo",
       "Batman",
+      "Benfica",
+      "Capitão Nascimento",
+      "Chuck Norris",
       "Costa",
-      "Mica",
       "Mestre",
+      "Mica",
+      "Mr. Bean",
+      "Mr. T",
       "Ninja",
       "Programador",
-      "Son Goku",
-      "Chuck Norris",
-      "Mr. T",
-      "Capitão Nascimento",
-      "Mr. Bean"
+      "Son Goku"
     ]
   }
 }
