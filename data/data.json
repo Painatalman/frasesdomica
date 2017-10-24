@@ -8,6 +8,7 @@
     "Dá-me os ingredientes que eu faço o molho",
     "Devias o quê?... Esquece! A gente percebe, portanto é na boa!",
     "Enquanto uns estão de férias, eu... estou aqui!",
+    "Entornei café no teclado. Agora só faço CoffeeScript",
     "Este mundo é uma volta... não quer dizer nada, mas ya!",
     "Façam isso, nem que eu pague!",
     "Faço de um beco sem saída uma autoestrada",
@@ -69,13 +70,16 @@
       "Android",
       "Bash",
       "C",
+      "CoffeeScript",
       "CSS",
       "C#",
       "D",
       "F#",
+      "Flash",
       "HTML",
       "Javascript",
-      "KOBOL"
+      "KOBOL",
+      "VIM"
     ],
     "names": [
       "aquele gajo",
@@ -90,6 +94,7 @@
       "Mr. T",
       "Ninja",
       "Programador",
+      "Soldado Genérico A",
       "Son Goku"
     ]
   }
