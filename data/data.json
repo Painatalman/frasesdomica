@@ -16,6 +16,7 @@
     "Há uma linha que separa... não sei o quê, mas ya!",
     "Há uns que morrem e outros que ficam assim!",
     "Isto é 8 ou 50...",
+    "Isto é uma injustiça! Mas porque é que não há água infinita?",
     "Juntos conseguimos ser mais fortes, mas basta eu!",
     "Mas para fazer isto vens ao... esquece, que isto não tem!",
     "O $techs é estúpido!",
@@ -31,6 +32,7 @@
     "Tenho saudades do bluescreen",
     "Testes unitários para $programming_languages? Lol",
     "Testes unitários para css? Lol, metes um background vermelho e vê!",
+    "Tu chegaste a um ponto em que a internet já não te serve",
     "Um número redondo é tipo 0, 2, 3, 5, 6, 8 ou 9 porque têm curvas... mas na calculadora são quadrados!",
     "Uma coisa é fazer pró Mac, outra é fazer DO Mac...",
     "Vá lá que temos $techs",
@@ -62,11 +64,14 @@
       "tech writing"
     ],
     "techs": [
+      "blockchain",
       "cronómetro",
-      "consola de videojogos",
       "editor",
       "programa",
-      "VR"
+      "videojogo",
+      "VIM",
+      "VR",
+      "Wordpress"
     ],
     "programming_languages": [
       "Android",
@@ -78,13 +83,14 @@
       "D",
       "F#",
       "Flash",
+      "Go",
       "HTML",
       "Javascript",
       "KOBOL",
-      "VIM"
+      "PHP"
     ],
     "names": [
-      "aquele gajo",
+      "Gajo",
       "Batman",
       "Benfica",
       "Capitão Nascimento",
