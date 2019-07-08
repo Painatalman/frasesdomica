@@ -2,6 +2,7 @@
   "quotes": [
     "A culpa é do $names!",
     "A malta do $departments não faz nada!",
+    "A programação é burra, cacete!",
     "A vida é como o Big Bang: está em constante desorganização",
     "Ainda ninguém resolveu este erro 404...",
     "Aquela marca é teimosa: só tem 3 indicadores...",
@@ -42,8 +43,9 @@
     "Seja 'clean' ou seja 'dirty', o que importa é que funcione!",
     "Tenho saudades do bluescreen",
     "Testes unitários para $programming_languages? Lol",
-    "Testes unitários para css? Lol, metes um background vermelho e vê!",
+    "Testes unitários para CSS? Lol, metes um background vermelho e vê!",
     "Tu chegaste a um ponto em que a internet já não te serve",
+    "Um gajo que perceba de $programming_languages até papa isso minimificado!",
     "Um número redondo é tipo 0, 2, 3, 5, 6, 8 ou 9 porque têm curvas... mas na calculadora são quadrados!",
     "Uma coisa é fazer pró Mac, outra é fazer DO Mac...",
     "Vá lá que temos $techs",
@@ -51,7 +53,7 @@
     "Vocês só me estragam o workflow!",
     "Vou acabar com a internet",
     "Vou criar um novo GIT",
-    "Vou minimificar o $programming_languages à la $names!"
+    "Vou minimificar o $programming_languages à $names!"
   ],
   "dialogs": [
     [
@@ -76,17 +78,17 @@
       "front-end",
       "marketing",
       "sysadmin",
-      "tech writing"
+      "vendas"
     ],
     "techs": [
-      "blockchain",
-      "cronómetro",
-      "editor",
-      "programa",
-      "videojogo",
+      "Atom",
+      "Blockchain",
+      "Sublime Text",
+      "Trello",
       "VIM",
       "VR",
-      "Wordpress"
+      "Wordpress",
+      "Zoho"
     ],
     "programming_languages": [
       "Android",
@@ -105,12 +107,12 @@
       "PHP"
     ],
     "names": [
-      "Gajo",
       "Batman",
       "Benfica",
       "Capitão Nascimento",
       "Chuck Norris",
       "Costa",
+      "Gajo",
       "Jogador 1",
       "Jogador 2",
       "Mestre",
